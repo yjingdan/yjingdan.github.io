@@ -5,15 +5,27 @@ Static, multi-page site for GitHub Pages. No build step — HTML + one CSS file.
 ### → https://yjingdan.github.io
 
 ```
-index.html        Home  (photo, bio, at-a-glance, education)
-research.html     Research (themes, research & training, publications)
-clinical.html     Clinical experience (roles, assessments, expertise)
+index.html        Home  (about, research interests, education)
+research.html     Research (areas, publications, experience, methods)
+clinical.html     Clinical (overview, positions, expertise, assessments)
 teaching.html     Teaching & mentorship
 assets/
-  style.css       All styling + colour/font settings (edit here)
-  profile.jpg     Your photo (already added, web-optimised)
-  cv.pdf          Your CV (already added; the nav "CV" link opens it)
+  style.css       All styling + colour settings (edit here)
+  banner.jpg      Header background photo (all pages)
+  profile.jpg     Sidebar portrait
+  cv.pdf          Your CV (the nav "CV" link opens it)
 ```
+
+**Layout:** photo banner across the top, then a sticky left sidebar (portrait + name +
+contact + short bio + links) that stays identical on all four pages, with page content
+on the right — the academicpages.github.io pattern.
+
+**To edit the sidebar:** it is duplicated in each `.html` file inside
+`<aside class="side"> ... </aside>`. Change it in one file, then paste the same block
+into the other three so they stay in sync.
+
+**To swap the banner photo:** replace `assets/banner.jpg` (wide crop works best,
+roughly 1800x670).
 
 ---
 
