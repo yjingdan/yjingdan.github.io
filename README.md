@@ -13,7 +13,6 @@ assets/
   style.css       All styling + colour/font settings (edit here)
   profile.jpg     Your photo (already added, web-optimised)
   cv.pdf          Your CV (already added; the nav "CV" link opens it)
-  favicon.svg     "JY" tab icon
 ```
 
 ---
@@ -51,4 +50,4 @@ assets/
 - **Update the CV:** replace `assets/cv.pdf` (keep the filename).
 - **Remove a page:** delete its `.html` file **and** its `<a>` link from the `navlinks` block in the other pages.
 
-Design notes: the "story spine" band (场景 → 起因 → 反应 → 尝试 → 结果) is your signature element — it visualises narrative macrostructure, the core of your assessment work. Palette is deep pine + ochre on warm paper; type is Fraunces + Source Sans 3 + IBM Plex Mono.
+Design notes: restrained academic style — a single sans-serif family (Source Sans 3, with Chinese fallbacks), academic navy accent on white, section headings with rules. No decorative/display typefaces.
