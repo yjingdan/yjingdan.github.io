@@ -167,7 +167,7 @@
     'Developed and delivered training for clinical staff and families to support evidence-based intervention and carryover across settings.':
       '为临床人员和家庭开发并开展培训，以支持循证干预及其在不同环境中的延伸与应用。',
 
-    'Engage Learn and Grow, Shanghai': 'Engage Learn and Grow，上海',
+    'Engage Learn and Grow, Shanghai': '学建ELG，上海',
 
     'Managed a caseload of children aged 3–20 with complex needs (ASD, CP, Down syndrome, Williams Syndrome, Rett Syndrome).':
       '负责 3–20 岁复杂需求儿童的个案管理，包括孤独症谱系障碍、脑性瘫痪、唐氏综合征、威廉姆斯综合征和雷特综合征。',
