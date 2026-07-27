@@ -42,7 +42,7 @@
     'Autism Spectrum Disorder (ASD)': '孤独症谱系障碍（ASD）',
 
     'Education': '教育背景',
-    'PhD in Child Language Disorders': '儿童语言障碍博士',
+    'PhD in Child Language Disorders': '儿童语言障碍博士（在读）',
     '2024 – present': '2024 – 至今',
     'Thesis:': '论文题目：',
 
@@ -59,7 +59,7 @@
       '格罗宁根大学 · 波茨坦大学 · 东芬兰大学',
 
     'Erasmus Mundus Scholarship, European Union.':
-      '欧盟伊拉斯谟世界计划奖学金。',
+      '欧盟伊拉斯谟奖学金。',
 
     'BEd in Speech and Hearing Sciences': '言语与听觉科学教育学学士',
     'Beijing Language and Culture University': '北京语言大学',
@@ -129,7 +129,7 @@
       '转录并编码普通话和英语儿童叙事样本（CHAT/CLAN）；使用 R 中的线性混合效应模型分析数据。',
 
     'SLP and Audiology Summer School': '言语语言病理学与听力学暑期学校',
-    'Rush University (Shenzhen)': '拉什大学（深圳）',
+    'Rush University (Shenzhen)': 'Rush大学（深圳）',
     'North Carolina Central University (Beijing)': '北卡罗来纳中央大学（北京）',
 
     'Acquired language disorders, dysphagia, and motor language disorders.':
@@ -176,9 +176,9 @@
       '实施标准化评估并提供循证干预。',
 
     'Collaborated with OTs, BCBAs, and psychologists on integrated intervention plans.':
-      '与作业治疗师、注册行为分析师和心理学家合作制定整合式干预计划。',
+      '与作业治疗师、行为分析师和心理学家合作制定联合干预计划。',
 
-    'Student Clinician': '学生治疗师',
+    'Student Clinician': '实习言语治疗师',
     'China–Japan Friendship Hospital, Beijing': '中日友好医院，北京',
 
     'Evaluation and treatment for adults with aphasia, dysarthria, dysphagia, and dementia under supervision.':
