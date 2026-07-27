@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<script src="assets/language.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -33,6 +34,10 @@
       <a href="clinical.html">Clinical</a>
       <a href="teaching.html" aria-current="page">Teaching</a>
       <a href="assets/cv.pdf" target="_blank" rel="noopener">CV</a>
+      <button class="language-toggle" type="button" data-language-toggle data-i18n-ignore aria-label="切换到中文" title="切换到中文" aria-pressed="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+        <span data-language-label>中文</span>
+      </button>
     </nav>
   </div>
 </header>
@@ -42,7 +47,7 @@
   <aside class="side">
     <div class="side__photo"><img src="assets/profile.jpg" alt="Jingdan Yang"></div>
     <p class="side__name">Jingdan YANG 杨静丹</p>
-    <p class="side__role">PhD Candidate / Speech-Language Therapist</p>
+    <p class="side__role"><span>Speech-Language Therapist</span><br><span>PhD Candidate</span></p>
     <p class="side__meta">Department of Language Science and Technology</p>
     <p class="side__meta">The Hong Kong Polytechnic University</p>
     <p class="side__meta"><a href="mailto:jingdan.yang@connect.polyu.hk">jingdan.yang@connect.polyu.hk</a></p>
@@ -103,7 +108,7 @@
       <div class="entry">
         <p class="entry__role">Clinical supervision</p>
         <p class="entry__org">Clinical settings</p>
-        <p class="entry__desc">Mentored and supervised less-experienced therapists and interns.</p>
+        <p class="entry__desc">Mentored and supervised junior therapists and interns.</p>
       </div>
     </section>
 

@@ -11,6 +11,7 @@ clinical.html     Clinical (overview, positions, expertise, assessments)
 teaching.html     Teaching & mentorship
 assets/
   style.css       All styling + colour settings (edit here)
+  language.js     English/Chinese translations + saved language preference
   banner.jpg      Header background photo (all pages)
   profile.jpg     Sidebar portrait
   cv.pdf          Your CV (the nav "CV" link opens it)
@@ -39,6 +40,17 @@ roughly 1800x670).
 4. Give it ~1–2 minutes, then open **https://yjingdan.github.io**.
 
 > Preview locally first by double-clicking `index.html` — fonts and links load from the web, so you'll see the real thing.
+
+---
+
+## Language switcher
+
+A **中文 / English** button appears immediately after **CV** in the navigation bar on every page. The selected language is saved in the visitor’s browser, so it remains active while moving between pages or returning later.
+
+- Edit Chinese translations in `assets/language.js`, inside the `const zh = { ... }` dictionary.
+- When adding new English text to a page, add the exact English phrase and its Chinese translation to that dictionary.
+- Keep `<script src="assets/language.js" defer></script>` in the `<head>` of every page.
+- Keep the `<button class="language-toggle" ...>` element after the navigation CV link on every page.
 
 ---
 

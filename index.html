@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<script src="assets/language.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -20,7 +21,7 @@
   <div class="banner__text">
     <div class="banner__inner">
       <p class="banner__title">Jingdan YANG 杨静丹</p>
-      <p class="banner__sub">PhD Candidate / Speech-Language Therapist · The Hong Kong Polytechnic University</p>
+      <p class="banner__sub">PhD Candidate / Speech-Language Therapist</p>
     </div>
   </div>
 </div>
@@ -34,6 +35,10 @@
       <a href="clinical.html">Clinical</a>
       <a href="teaching.html">Teaching</a>
       <a href="assets/cv.pdf" target="_blank" rel="noopener">CV</a>
+      <button class="language-toggle" type="button" data-language-toggle data-i18n-ignore aria-label="切换到中文" title="切换到中文" aria-pressed="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+        <span data-language-label>中文</span>
+      </button>
     </nav>
   </div>
 </header>
@@ -44,7 +49,7 @@
   <aside class="side">
     <div class="side__photo"><img src="assets/profile.jpg" alt="Jingdan Yang"></div>
     <p class="side__name">Jingdan YANG 杨静丹</p>
-    <p class="side__role">PhD Candidate / Speech-Language Therapist</p>
+    <p class="side__role"><span>Speech-Language Therapist</span><br><span>PhD Candidate</span></p>
     <p class="side__meta">Department of Language Science and Technology</p>
     <p class="side__meta">The Hong Kong Polytechnic University</p>
     <p class="side__meta"><a href="mailto:jingdan.yang@connect.polyu.hk">jingdan.yang@connect.polyu.hk</a></p>
@@ -67,7 +72,7 @@
         About
       </h2>
       <p>I am a PhD candidate in the Department of Language Science and Technology at The Hong Kong Polytechnic University and a bilingual (English/Mandarin) Speech-Language Therapist. My work bridges research and clinical practice to improve communication outcomes for Mandarin-speaking children.</p>
-      <p>My research develops and validates narrative assessment tools and evidence-based interventions for children with language disorders. Clinically, I have provided individual and group therapy across the lifespan, with a focus on ASD, social communication, and AAC.</p>
+      <p>My research develops and validates language assessment tools and evidence-based interventions for children with language disorders. Clinically, I have provided individual and group therapy across the lifespan, with a focus on ASD, social communication, and AAC.</p>
     </section>
 
     <section class="section">
@@ -76,12 +81,12 @@
         Research Interests
       </h2>
       <div class="bubbles">
-        <span class="bubble">Test development &amp; validation</span>
-        <span class="bubble">Narrative language assessment</span>
-        <span class="bubble">Dynamic assessment</span>
-        <span class="bubble">Intervention science</span>
-        <span class="bubble">Implementation research</span>
-        <span class="bubble">Child language disorders</span>
+        <span class="bubble">Speech-Language Pathology</span>
+        <span class="bubble">Child Language Disorders</span>
+        <span class="bubble">Test Development</span>
+        <span class="bubble">Language Assessment</span>
+        <span class="bubble">Intervention Science</span>
+        <span class="bubble">Implementation Research</span>
         <span class="bubble">Developmental Language Disorder (DLD)</span>
         <span class="bubble">Autism Spectrum Disorder (ASD)</span>
       </div>
@@ -95,7 +100,7 @@
 
       <div class="entry">
         <div class="entry__head">
-          <p class="entry__role">PhD in Child Language Disorders</p>
+          <p class="entry__role entry__role--flag"><span class="entry__icon" aria-hidden="true">🇭🇰</span><span>PhD in Child Language Disorders</span></p>
           <span class="entry__when">2024 – present</span>
         </div>
         <p class="entry__org">The Hong Kong Polytechnic University</p>
@@ -104,16 +109,16 @@
 
       <div class="entry">
         <div class="entry__head">
-          <p class="entry__role">Erasmus Mundus Joint Master in Clinical Linguistics</p>
+          <p class="entry__role entry__role--flag"><span class="entry__icon" aria-hidden="true">🇪🇺</span><span>Erasmus Mundus Joint Master in Clinical Linguistics</span></p>
           <span class="entry__when">2019 – 2021</span>
         </div>
         <p class="entry__org">University of Groningen · University of Potsdam · University of Eastern Finland</p>
-        <p class="entry__desc">Erasmus Mundus Scholarship, European Commission.</p>
+        <p class="entry__desc">Erasmus Mundus Scholarship, European Union.</p>
       </div>
 
       <div class="entry">
         <div class="entry__head">
-          <p class="entry__role">BEd in Speech and Hearing Sciences</p>
+          <p class="entry__role entry__role--flag"><span class="entry__icon" aria-hidden="true">🇨🇳</span><span>BEd in Speech and Hearing Sciences</span></p>
           <span class="entry__when">2015 – 2019</span>
         </div>
         <p class="entry__org">Beijing Language and Culture University</p>
